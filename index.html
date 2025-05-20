@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Navigation Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header" role="banner" id="top">
+  <div>
+    <nav class="nav" role="navigation" id="navbar">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="home" id="home">
+  <div class="content">
+    <h1>The navigation bar changes color when you scroll down!</h1>
+    <p>You are now at the Home page.</p>
+  </div>
+</section>
+
+<main>
+  <section class="about" id="about">
+    <div class="ab">
+      <h2>About</h2>
+      <p>You are now in the About section.</p>
+    </div>
+  </section>
+</main>
+
+<section class="contact" id="contact">
+  <div class="cont">
+    <h2>Contact</h2>
+    <p>You are now in the Contact section.</p>
+  </div>
+</section>
+
+<a href="#top" class="back-to-top" title="Back to Top">
+  <img src="arrow.png" alt="Back to Top" class="back-to-top__image" />
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
+
